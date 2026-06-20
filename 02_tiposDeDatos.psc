@@ -8,4 +8,5 @@ Algoritmo datos
 	b<-45;
 	c<-3.5;
 	d<-Verdadero;
+	
 FinAlgoritmo
