@@ -4,9 +4,14 @@ Algoritmo datos
 	Definir c Como Real;
 	Definir d Como Logico;
 	
-	a<-'45';
-	b<-45;
-	c<-3.5;
-	d<-Verdadero;
+	a <- "Hola";
+	b <- 45;
+	c <- 3.5;
+	d <- Verdadero;
+	
+	Escribir "Caracter: ", a;
+	Escribir "Entero: ", b;
+	Escribir "Real: ", c;
+	Escribir "Logico: ", d;
 	
 FinAlgoritmo
