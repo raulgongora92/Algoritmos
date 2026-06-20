@@ -12,4 +12,5 @@ Algoritmo capitalInvertir
 	ganancia <- capital * 0.02;
 	
 	Escribir "Su ganancia al paso de un mes son: ", ganancia;
+	
 FinAlgoritmo
