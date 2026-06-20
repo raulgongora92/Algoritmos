@@ -5,7 +5,7 @@
 //	15% de la calificación de un trabajo final.
 
 Algoritmo calificacion
-	Definir parcial1, parcial2, parcial3, promParcial, pPromParcial, examenFinal, promExamenFinal, trabajoFinal, promTrabajoFinal, calif Como Real;
+	Definir parcial1, parcial2, parcial3, promedParcial, puntajePromedParcial, examenFinal, promedExamenFinal, trabajoFinal, promedTrabajoFinal, calif Como Real;
 	
 	Escribir "Ingrese la nota del parcial 1";
 	leer parcial1;
@@ -14,21 +14,21 @@ Algoritmo calificacion
 	Escribir "Ingrese la nota del parcial 3";
 	leer parcial3;
 	
-	promParcial <- (parcial1 + parcial2 + parcial3)/3;
+	promedParcial <- (parcial1 + parcial2 + parcial3)/3;
 	
-	pPromParcial <- promParcial * 0.55;
+	puntajePromedParcial <- promParcial * 0.55;
 	
 	Escribir "Ingrese la nota del examen final";
 	leer examenFinal;
 	
-	promExamenFinal <- examenFinal * 0.30;
+	promedExamenFinal <- examenFinal * 0.30;
 	
 	Escribir "Ingrese la nota del trabajo final";
 	leer trabajoFinal;
 	
-	promTrabajoFinal <- trabajoFinal * 0.15;
+	promedTrabajoFinal <- trabajoFinal * 0.15;
 	
-	calif <- pPromParcial + promExamenFinal + promTrabajoFinal
+	calif <- puntajePromedParcial + promedExamenFinal + promedTrabajoFinal
 	
 	Escribir "La calificación obtenida es: ", calif;
 FinAlgoritmo
