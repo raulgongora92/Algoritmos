@@ -22,6 +22,7 @@ Algoritmo sueldo
 	
 	sueldoTotal <- sueldoBase + comision;
 	
-	Escribir "El total por concepto de comisiones es: $", comision, " y por concepto de sueldo + comision sería : $", sueldoTotal;
+	Escribir "El total por concepto de comisiones es: $", comision;
+	Escribir "y por concepto de sueldo + comision sería: $", sueldoTotal;
 	
 FinAlgoritmo
