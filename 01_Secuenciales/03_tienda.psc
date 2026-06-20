@@ -10,6 +10,6 @@ Algoritmo tienda
 	
 	valorTotal <- valorCompra * 0.85;
 	
-	Escribir "El valor total a pagar es: ", valorTotal;
+	Escribir "El valor total a pagar es: $", valorTotal;
 	
 FinAlgoritmo
